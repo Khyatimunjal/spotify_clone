@@ -200,7 +200,135 @@ class MyHomePage extends StatelessWidget {
                   ),
                 )
               ],
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: [
+                Container(
+                  child: Row(
+                    children: const [
+                      Image(
+                          image: NetworkImage(
+                              "https://charts-images.scdn.co/REGIONAL_BR_DEFAULT.jpg"),
+                          height: 70,
+                          width: 70,
+                          fit: BoxFit.cover),
+                      SizedBox(width: 10),
+                      Text(
+                        "Top 50 Songs",
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 2,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 1,
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: [
+                Container(
+                  child: Row(
+                    children: const [
+                      Image(
+                          image: NetworkImage(
+                              "https://i.pinimg.com/564x/f5/31/be/f531be33d92a1431d5b274e65eae3a52.jpg"),
+                          height: 70,
+                          width: 70,
+                          fit: BoxFit.cover),
+                      SizedBox(width: 10),
+                      Text(
+                        "Let's Chill",
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 2,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 1,
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: [
+                Container(
+                  child: Row(
+                    children: const [
+                      Image(
+                          image: NetworkImage(
+                              "https://marketplace.canva.com/EAEdfgToPuA/1/0/1600w/canva-turquoise-and-pink-hands-90s-anime-love-songs-playlist-cover-2QedCFTcJRU.jpg"),
+                          height: 70,
+                          width: 70,
+                          fit: BoxFit.cover),
+                      SizedBox(width: 10),
+                      Text(
+                        "Love is in the air",
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 2,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 1,
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: [
+                Container(
+                  child: Row(
+                    children: const [
+                      Image(
+                          image: NetworkImage(
+                              "https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2022/03/spotify-playlist-cover-orange-headphones-032322.jpg"),
+                          height: 70,
+                          width: 70,
+                          fit: BoxFit.cover),
+                      SizedBox(width: 10),
+                      Text(
+                        "Rock this up",
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 2,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 1,
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
           ],
         ),
       ),
