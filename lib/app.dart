@@ -152,7 +152,7 @@ class MyHomePage extends StatelessWidget {
                   color: Colors.white,
                   onPressed: () {},
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
                     "Most Recent",
@@ -169,6 +169,38 @@ class MyHomePage extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              children: [
+                Container(
+                  child: Row(
+                    children: const [
+                      Image(
+                          image: NetworkImage(
+                              "https://misc.scdn.co/liked-songs/liked-songs-300.png"),
+                          height: 70,
+                          width: 70,
+                          fit: BoxFit.cover),
+                      SizedBox(width: 10),
+                      Text(
+                        "Liked Songs",
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 2,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 1,
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            )
           ],
         ),
       ),
