@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lenovo\sdks\projects\spotify_clone\build\windows\CMakeFiles\7659462bf3f7c4d5b40686bc247f3bc6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{92D548EF-A571-37D1-9726-7105AF9C2D94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

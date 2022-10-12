@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lenovo\sdks\projects\spotify_clone\build\windows\CMakeFiles\351a8759a3a5fba1c713995da98e3ca5\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lenovo\sdks\projects\spotify_clone\build\windows\CMakeFiles\8ebdb62afe0c3049ec0181ddc4c0145a\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lenovo\sdks\projects\spotify_clone\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Lenovo\sdks\projects\spotify_clone\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{92D548EF-A571-37D1-9726-7105AF9C2D94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

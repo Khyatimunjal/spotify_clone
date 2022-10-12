@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\SDKS\PROJECTS\SPOTIFY_CLONE\BUILD\WINDOWS\CMAKEFILES\7659462BF3F7C4D5B40686BC247F3BC6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Lenovo/sdks/projects/spotify_clone/windows -BC:/Users/Lenovo/sdks/projects/spotify_clone/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/sdks/projects/spotify_clone/build/windows/spotify_clone.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^C:\USERS\LENOVO\SDKS\PROJECTS\SPOTIFY_CLONE\BUILD\WINDOWS\CMAKEFILES\351A8759A3A5FBA1C713995DA98E3CA5\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Lenovo\sdks\flutter PROJECT_DIR=C:\Users\Lenovo\sdks\projects\spotify_clone FLUTTER_ROOT=C:\Users\Lenovo\sdks\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Lenovo\sdks\projects\spotify_clone\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Lenovo\sdks\projects\spotify_clone FLUTTER_TARGET=C:\Users\Lenovo\sdks\projects\spotify_clone\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Lenovo\sdks\projects\spotify_clone\.dart_tool\package_config.json C:/Users/Lenovo/sdks/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LENOVO\SDKS\PROJECTS\SPOTIFY_CLONE\BUILD\WINDOWS\CMAKEFILES\8EBDB62AFE0C3049EC0181DDC4C0145A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LENOVO\SDKS\PROJECTS\SPOTIFY_CLONE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Lenovo/sdks/projects/spotify_clone/windows -BC:/Users/Lenovo/sdks/projects/spotify_clone/build/windows --check-stamp-file C:/Users/Lenovo/sdks/projects/spotify_clone/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
